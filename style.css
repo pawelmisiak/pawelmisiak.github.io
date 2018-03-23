@@ -18,6 +18,7 @@ header {
 }
 
 h1 {
+  color: rgba(255,255,255,0.5);
   position: relative;
   top: 80%;
 }
@@ -25,23 +26,5 @@ h1 {
 .subscription {
   position: relative;
   top: 82%;
+  border: 1px solid red;
 }
-
-/* h1 {
-  color: white;
-  color: rgba(255,255,255,0.5);
-  height: auto;
-  font-family: 'Indie Flower', cursive;
-  position: absolute;
-    top: 630px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-/* .my_button {
-  position: absolute;
-    top: 700px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(255,193,40,0.4)
-} */
