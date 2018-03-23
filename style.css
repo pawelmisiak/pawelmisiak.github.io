@@ -7,16 +7,27 @@ html, body {
 }
 
 header {
-  display: block;
-  width: 1500px;
-  height: 770px;
   background-image: url(background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 1500px;
+  height: 770px;
+  border: 1px solid red;
+  text-align: center;
 }
 
 h1 {
+  position: relative;
+  top: 80%;
+}
+
+.subscription {
+  position: relative;
+  top: 82%;
+}
+
+/* h1 {
   color: white;
   color: rgba(255,255,255,0.5);
   height: auto;
@@ -25,12 +36,12 @@ h1 {
     top: 630px;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
-.my_button {
+/* .my_button {
   position: absolute;
     top: 700px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(255,193,40,0.4)
-}
+} */
