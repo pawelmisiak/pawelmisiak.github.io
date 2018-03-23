@@ -13,11 +13,11 @@ header {
   background-position: center;
   width: 1500px;
   height: 770px;
-  border: 1px solid red;
   text-align: center;
 }
 
 h1 {
+  display: block;
   color: rgba(255,255,255,0.5);
   position: relative;
   top: 80%;
@@ -26,5 +26,4 @@ h1 {
 .subscription {
   position: relative;
   top: 82%;
-  border: 1px solid red;
 }
